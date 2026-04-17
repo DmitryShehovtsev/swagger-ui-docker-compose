@@ -1,7 +1,7 @@
 services:
-  swagger-ui:
+  swagger:
     image: swaggerapi/swagger-ui:latest
-    container_name: swagger-ui
+    container_name: ui
     ports:
       - "${SWAGGER_UI_HOST_PORT}:8080"
     volumes:
